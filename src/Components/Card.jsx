@@ -335,12 +335,14 @@ const Card = ({pokemon, loading}) => {
             </Modal>
 
 
-             <Row>
+                {/* <Row>
                 <Col className="col-sm-5 search-width">  <div> <label className="h6 fw-normal mb-0">Search by</label></div></Col>
                 <Col className="col-sm-3 type-filter-width"> <div><label className="h6 fw-normal mb-0">Type </label></div></Col>
                 <Col className="col-sm-2 filter-width"> <div><label className="h6 fw-normal mb-0">Gender</label></div></Col>
                 <Col className="col-sm-1"><div><label className="h6 fw-normal mb-0">Stats</label></div></Col>
-                </Row>               
+                </Row>      */}
+
+
             {/* <label className="h6 fw-normal mb-0">Search by</label> */}
             <div className="form-group has-search container-flex">
                 <span className="fa fa-search form-control-feedback">
